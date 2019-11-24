@@ -1,15 +1,15 @@
-# igapi
+# API Insta
 
 An Instagram API that actually works!
 
-## Usage</h1>
+## Usage
 
 ### Users:
 
 ```js
-var igapi = require('igapi');
+var insta = require('api-insta');
 
-igapi.user('instagram').then(result => {
+insta.user('instagram').then(result => {
   console.log(result.fullName); // Instagram
 
   console.log(result.followers); // 318381368
@@ -19,9 +19,9 @@ igapi.user('instagram').then(result => {
 ### Posts:
 
 ```js
-var igapi = require('igapi');
+var insta = require('api-insta');
 
-igapi.post('B5N5N8UgQcZ').then(result => {
+insta.post('B5N5N8UgQcZ').then(result => {
   console.log(result.likes); // 346509
 
   console.log(result.location); // New York, New York
@@ -32,7 +32,7 @@ igapi.post('B5N5N8UgQcZ').then(result => {
 
 ### Users:
 
-[https://igapi-heroku.herokuapp.com/api/user/instagram](https://igapi-heroku.herokuapp.com/api/user/instagram)
+[https://api-insta-heroku.herokuapp.com/api/user/instagram](https://api-insta-heroku.herokuapp.com/api/user/instagram)
 
 ```json
 {
@@ -52,7 +52,7 @@ igapi.post('B5N5N8UgQcZ').then(result => {
 
 ### Posts:
 
-[https://igapi-heroku.herokuapp.com/api/post/B5N5N8UgQcZ](https://igapi-heroku.herokuapp.com/api/post/B5N5N8UgQcZ)
+[https://api-insta-heroku.herokuapp.com/api/post/B5N5N8UgQcZ](https://api-insta-heroku.herokuapp.com/api/post/B5N5N8UgQcZ)
 
 ```json
 {

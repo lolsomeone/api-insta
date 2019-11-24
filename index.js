@@ -1,1 +1,1 @@
-module.exports = require('./lib/igapi');
+module.exports = require('./lib/api-insta');
