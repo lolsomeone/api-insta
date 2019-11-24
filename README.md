@@ -4,7 +4,7 @@
 
 <h2>Usage</h1>
 
-<h2>Users</h2>
+<h3>Users</h3>
 
 ```javascript
 var igapi = require('igapi');
@@ -16,7 +16,7 @@ igapi.user('instagram').then(result => {
 });
 ```
 
-<h2>Posts</h2>
+<h3>Posts</h3>
 
 ```javascript
 var igapi = require('igapi');
@@ -28,9 +28,9 @@ igapi.post('B5N5N8UgQcZ').then(result => {
 });
 ```
 
-<h1>Heroku App</h1>
+<h2>Heroku App</h2>
 
-<h2>Users</h2>
+<h3>Users</h3>
 
 [https://igapi-heroku.herokuapp.com/api/user/instagram](https://igapi-heroku.herokuapp.com/api/user/instagram)
 
@@ -50,7 +50,7 @@ igapi.post('B5N5N8UgQcZ').then(result => {
 }
 ```
 
-<h2>Posts</h2>
+<h3>Posts</h3>
 
 [https://igapi-heroku.herokuapp.com/api/post/B5N5N8UgQcZ](https://igapi-heroku.herokuapp.com/api/post/B5N5N8UgQcZ)
 
