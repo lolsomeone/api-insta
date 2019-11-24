@@ -1,10 +1,10 @@
 <h1>igapi</h1>
 
-<p>An Instagram API that actually works</p>
+<p>An Instagram API that actually works!</p>
 
 <h2>Usage</h1>
 
-<h3>Users</h3>
+<h3>Users:</h3>
 
 ```js
 var igapi = require('igapi');
@@ -16,7 +16,7 @@ igapi.user('instagram').then(result => {
 });
 ```
 
-<h3>Posts</h3>
+<h3>Posts:</h3>
 
 ```js
 var igapi = require('igapi');
@@ -30,7 +30,7 @@ igapi.post('B5N5N8UgQcZ').then(result => {
 
 <h2>Heroku App</h2>
 
-<h3>Users</h3>
+<h3>Users:</h3>
 
 [https://igapi-heroku.herokuapp.com/api/user/instagram](https://igapi-heroku.herokuapp.com/api/user/instagram)
 
@@ -50,7 +50,7 @@ igapi.post('B5N5N8UgQcZ').then(result => {
 }
 ```
 
-<h3>Posts</h3>
+<h3>Posts:</h3>
 
 [https://igapi-heroku.herokuapp.com/api/post/B5N5N8UgQcZ](https://igapi-heroku.herokuapp.com/api/post/B5N5N8UgQcZ)
 
