@@ -10,7 +10,8 @@
     "ig",
     "insta",
     "api",
-    "igapi"
+    "instagram api",
+    "api-insta"
   ],
   "dependencies": {
     "request": "^2.88.0",
