@@ -1,0 +1,24 @@
+{
+  "name": "igapi",
+  "version": "1.1.0",
+  "description": "An Instagram API that actually works",
+  "main": "index.js",
+  "author": "lolsomeone",
+  "license": "MIT",
+  "keywords": [
+    "instagram",
+    "ig",
+    "insta",
+    "api",
+    "igapi"
+  ],
+  "dependencies": {
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5",
+    "user-instagram": "^1.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lolsomeone/igapi.git"
+  }
+}
