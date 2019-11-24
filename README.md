@@ -1,6 +1,6 @@
 <h1>igapi</h1>
 
-<p>an instagram api that actually works</p>
+<p>An Instagram API that actually works</p>
 
 <h2>Usage</h1>
 
