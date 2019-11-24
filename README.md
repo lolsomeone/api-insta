@@ -6,7 +6,7 @@
 
 <h3>Users</h3>
 
-```javascript
+```js
 var igapi = require('igapi');
 
 igapi.user('instagram').then(result => {
@@ -18,7 +18,7 @@ igapi.user('instagram').then(result => {
 
 <h3>Posts</h3>
 
-```javascript
+```js
 var igapi = require('igapi');
 
 igapi.post('B5N5N8UgQcZ').then(result => {
