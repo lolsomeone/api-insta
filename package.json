@@ -1,6 +1,6 @@
 {
   "name": "api-insta",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "An Instagram API that actually works",
   "main": "index.js",
   "author": "lolsomeone",

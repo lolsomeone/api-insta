@@ -72,3 +72,7 @@ insta.post('B5N5N8UgQcZ').then(result => {
   "height": 1350
 }
 ```
+
+## Contact
+
+### Discord: lolsomeone#7244
