@@ -12,7 +12,7 @@ var insta = require('api-insta');
 insta.user('instagram').then(result => {
   console.log(result.fullName); // Instagram
 
-  console.log(result.followers); // 318381368
+  console.log(result.followerCount); // 318,747,392
 });
 ```
 
@@ -21,10 +21,10 @@ insta.user('instagram').then(result => {
 ```js
 var insta = require('api-insta');
 
-insta.post('B5N5N8UgQcZ').then(result => {
-  console.log(result.likes); // 346509
+insta.post('B5S9fwFA4TX').then(result => {
+  console.log(result.likes); // 419,078
 
-  console.log(result.location); // New York, New York
+  console.log(result.location); // Brooklyn, New York
 });
 ```
 
