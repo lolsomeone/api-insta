@@ -1,6 +1,6 @@
 {
   "name": "api-insta",
-  "version": "1.2.3",
+  "version": "1.2.5",
   "description": "An Instagram API that actually works",
   "main": "index.js",
   "author": "lolsomeone",
@@ -10,12 +10,11 @@
     "ig",
     "insta",
     "api",
-    "instagram api",
-    "api-insta"
+    "scraper",
+    "data"
   ],
   "dependencies": {
-    "request": "^2.88.0",
-    "request-promise": "^4.2.5"
+    "axios": "^0.19.0"
   },
   "repository": {
     "type": "git",
