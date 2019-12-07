@@ -1,6 +1,6 @@
-# API Insta
+# api-insta
 
-An Instagram API that actually works!
+an instagram api that actually works
 
 ## Usage
 
