@@ -88,7 +88,7 @@ insta.tag('instagram').then(result => {
 }
 ```
 
-### Tags
+### Tags:
 
 [https://api-insta-heroku.herokuapp.com/tag/instagram](https://api-insta-heroku.herokuapp.com/tag/instagram)
 
